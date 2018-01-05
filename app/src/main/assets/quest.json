@@ -1,0 +1,140 @@
+//quest.json
+{
+  "tour1": [
+  
+      {
+      "id": 1,
+      "name": "Two Chairs",
+      "name_DE": "Zwei Stühle",
+      "name_NL": "Twee Stoelen",
+      "addres": "Brouwersgracht 52",
+      "description": "The inscription reads: 'Never perfect'.This gable stone dates from 1759 and depicts two chairs, one clearly more comfortable than the other.The chairs symbolize that striving for more will probably yield success but perfection can't be reached.",
+      "description_DE": "Die Inschrift lautet: 'Niemals perfekt'. Dieser Giebelstein stammt aus dem Jahr 1759 und zeigt zwei Stühle, der eine ist deutlich bequemer als der andere. Die Stühle symbolisieren, dass Streben nach mehr Früchte abwirft, Perfektion aber nicht erreichbar ist.",
+      "description_NL": "'Nooit volmaakt'. Deze gevelsteen dateert uit 1759 en toont twee stoelen, een duidelijk comfortabeler dan de andere. De stoelen symboliseren dat streven naar meer veel kan opleveren, maar perfectie zou nooit worden bereikt. ",
+      "lat": 52.379295,
+      "lng": 4.892488,
+      "match": 0
+  },
+      {
+      "id": 2,
+      "name": "Rowing boat",
+      "name_DE": "Ruderboot",
+      "name_NL": "Roeiboot",
+      "addres": "Lange Straat 5",
+      "description": "This type of boat was used to bring merchandise from the jetty on board of merchant ships and back. It was moved and steered by a rowing oar, similar to the gondolas, which are still active in Venice.",
+      "description_DE":"Diese Art von Boot wurde verwendet, um Waren von der Anlegestelle an Bord der Handelsschiffe oder zurück an Land zu bringen. Diese Boote wurden nur mit einem Riemen gerudert und gelenkt. Ähnlich den Gondeln, die noch in Venedig im Einsatz sind.",
+      "description_NL":"Deze gevelsteen laat een typisch boot uit de 18e eeuw zien. Dit soort boot werd gebruikt om goederen van de steiger aan boord van koopvaardijschepen of terug te brengen. Het werd door alleen een boomstok bewegt en gestuurd. Het lijkte op de gondels die nog in Venetië actief zijn.",
+      "lat": 52.378778,
+      "lng":4.892648,
+      "match": 0
+  },
+      {
+      "id": 3,
+      "name": "Farmer",
+      "name_DE": "Der Bauer",
+      "name_NL": "De Boer",
+      "addres": "Lange Straat 17",
+      "description": "The gable stone depicts a farm scene: a farmer and a helper are plowing a field. The buildings in the background, depict in fact the original buildings on which the gable stone was fixed. Those were torn down and replaced by the current house around 1920. Confusingly, the inscription reads 'The Builder' (De Bouwman), which was the surname of the owner of the house.",
+      "description_DE":"Der Giebelstein zeigt eine bäuerliche Szene: Ein Bauer und sein Knecht pflügen ein Feld. Die Gebäude im Hintergrund zeigen die Gebäude, auf denen der Giebelstein ursprünglich angebracht war. Diese Gebäude wurden rund 1920 abgerissen und durch das aktuelle Haus ersetzt. Etwas verwirrend heißt die Inschrift darunter 'Der Baumeister' (De Bouwman). Dies war der Familienname des Hausbesitzers.",
+      "description_NL": "De gevelsteen laat een boerenscène zien: een boer en zijn knecht plogen een veld. De gebouwen op de achtergrond tonen de originele gebouwen waarop de gordelsteen was bevestigd. Deze werden rond 1920 gesloopt en door het huidige huis vervangen. Een beetje verwarrend is de opschrift 'De Bouwman'. Dit was de achternaam van de huiseigenaar. ",
+      "lat":52.378476,
+      "lng":4.892328,
+      "match": 0
+  },
+      {
+      "id": 4,
+      "name": "Linden",
+      "name_DE": "Die Linde",
+      "name_NL": "De Lindenboom",
+      "addres": "Lange Straat 28",
+      "description": "This gable stone was quite recently placed - in 2003. It refers to the name of the house: The Linden. The tradition of personalizing a house is still kept alive by proud house owners in Amsterdam.",
+      "description_DE":"Dieser Giebelstein wurde erst vor Kurzem platziert - im Jahr 2003. 'Die Linde' ist das Zeichen dieses Hauses. Die Tradition der Giebelsteine wird noch stehts von stolzen Hausbesitzern in Amsterdam lebendig gehalten.",
+      "description_NL": " Deze gevelsteen is vrij recent geplaatst - in 2003. Hij verwijst naar de naam van het huis: De Linden. De traditie de gevelsteenen wordt gelukkig nog steeds door de trotse huiseigenaren hoog gehouden.",
+      "lat":52.378485,
+      "lng":4.892216,
+      "match": 0
+  },
+      {
+      "id": 5,
+      "name": "Carrige House",
+      "name_DE": "Das Kutschhaus",
+      "name_NL": "Het Koetshuis",
+      "addres": "Lange Straat 50",
+      "description": "'Long Street' (Lange Straat), the street you are currently in, used to accommodate all kinds of services required by the grand mansions located along the Herengracht, the street running paralell. This house used to be a carriage house; residence to the coachman and parking space of the carriages of the mansion. The gable stone depicts a carriage. It was placed after renovations in 2000 and refers to 1710, the construction year of the original building.",
+      "description_DE":"In der 'Lange Straat', die Straße, in der Sie sich gerade befinden, waren früher alle Arten von Dienstleistungsunternehmen untergebracht, die von den großen Herrenhäusern entlang der Herengracht benötigt wurden. Dieses Haus war früher ein Kutschhaus: der Kutscher wohnte und hier wurden die Kutschen des Herrenhauses an der Herengracht untergestellt. Der Giebelstein zeigt eine Kutsche. Der Stein wurde nach Renovierungsarbeiten im Jahr 2000 in die Mauer eingelassen und verweist auf 1710, das ursprüngliche Errichtungsjahr des Gebäudes.",
+      "description_NL": " In de 'Lange Straat', de straat waar u momenteel bent, waren allerlei diensten ondergebracht, die door de grote herenhuizen langs de Herengracht gebruikt worden. Dit huis was vroeger een koetshuis; het huis van de koetsier en de parkeerplaats van de koetsen. De gevelsteen laat een koets zien. Het werd na renovaties in 2000 geplaatst en verwijst naar 1710, het bouwjaar van het oorspronkelijke gebouw.",
+      "lat":52.377991,
+      "lng":4.891739,
+      "match": 0
+  },
+      {
+      "id": 6,
+      "name": "Horse Stables",
+      "name_DE": "Pferdestall",
+      "name_NL": "Paardenstal",
+      "addres": "Lange Straat 92",
+      "description": "'Lange Straat 92' used to be the horse stables of one of the mansions on the 'noble' Herengracht. Now the former stables are now used as parking lots for cars. This again displays the wealth of the homeowners, as prices for housing in this area are high and lots of former garages are converted into apartments.",
+      "description_DE":"'Lange Straat 92' war früher der Pferdestall eines der Herrenhäuser an der 'edlen' Herengracht.Jetzt sind die ehemaligen Ställe Parkplätze für Autos; noch immer zeigt sich daran der Wohlstand der Hausbesitzer in dieser Gegend. Die Preise für Wohnraum sind hoch und viele ehemalige Garagen wurden in Wohnungen umgebaut.",
+      "description_NL": "'Lange Straat 92' was vroeger de paardenstal van een van de herenhuizen op de Herengracht. Nu zijn de voormalige stallen parkeerplaatsen voor auto's; nog steeds toonen ze de rijdom van huiseigenaren in dit gebied. Aangezien de hooge prijzen voor woningen zijn er veel voormalige garages omgebout tot appartementen.",
+      "lat":52.37688,
+      "lng":4.890647,
+      "match": 0
+  },
+
+],
+"tour2":[
+      {
+      "id": 1,
+      "name": "Papermill",
+      "name_DE": "Papierfabrik",
+      "name_NL": "Papiermolen",
+      "addres": "Herengracht 105",
+      "description": "The stone shows the different stages producing paper in a paper mill back in the 17th century. Follow the process clockwise, start at the top middle section. First, the rags are sorted and prepared, shown in the upper section of the stone,  then hammers, powered by the millwheel, are breaking up the fabric. The loose fibers are mixed with water. The middle part of the stone depicts how the pulp is put on sieves and then pressed to drain the water. Then the sheets were hung to dry and thereafter sorted. This gable stone used to be located at the front of a now-demolished house on Damrak 98.",
+      "description_DE":"Der Stein zeigt die verschiedenen Arbeitschritte, wie im 17. Jahrhundert Papier in einer Papierfabrik hergestellt wurde. Folgen Sie dem Prozess im Uhrzeigersinn, beginnend oben in der Mitte (12 Uhr). Zuerst werden die Lumpen sortiert und vorbereitet, dann brechen Hämmer, die durch das Mühlrad angetrieben werden, die Struktur des Gewebes auf. Die losen Fasern werden danach mit Wasser vermischt. Der mittlere Teil des Steines zeigt wie der Papierbrei auf Siebe gelegt und gepresst wird, um das Wasser abzulassen. Dann wurden die Blätter zum Trocknen aufgehängt und sobald sie trocken waren, sortiert. Dieser Giebelstein befand sich ursprünglich an der Vorderseite eines Hauses am Damrak 98. ",
+      "description_NL": "Deze steen laat de stappen zien, hoe in het 17e eeuw papier in een papierfabriek werd gemaakt. Volg het proces met de klok mee, begin boven in het midden (12 uur). Ten eerste worden de lompen gesorteerd en voorbereid, dan breken hamers, die door het molenwiel angedreven worden, de structuur van de stof. De losse vezels worden met water gemengd. Het middelste gedeelte van de steen laat zien hoe de pulp op zeven geplaatst en geperst wordt om het water af te voeren. Dan werden de vellen opgehangen om te droogen en erna gesorteerd. Deze gevelsteen was oorspronkelijk geplaats an de gevel van Damrak 98. ",
+      "lat":52.376611,
+      "lng":4.889971,
+      "match": 0
+  },
+      {
+      "id": 2,
+      "name": "Red Hat",
+      "name_DE": "Roter Hut",
+      "name_NL": "Roode Hoed",
+      "addres": "Keizergracht 104",
+      "description": "Built in 1632 this building was home and workshop of a hat maker. His last name was 'Redhat' as depicted in the gable stone. It is not known, if the hat maker derived his last name from the building or the building was named after him. Nowadays the cultural debate center 'The red hat' is located here.",
+      "description_DE":"Erbaut 1632 war dieses Gebäude das zuHause und die Werkstatt eines Hutmachers. Sein Nachname war 'Rothut', deutlich am  Giebelstein zu erkennen. Es ist nicht bekannt, ob der Hutmacher seinen Nachnamen von dem Gebäude abgeleitet hat oder das Gebäude nach ihm benannt wurde. Heute befindet sich hier das kulturelle Diskussionszentrum 'Der rote Hut'.",
+      "description_NL": " Gebouwd in 1632 was dit gebouw thuis en een werkplaats van een hoedmaker. Zijn achternaam was 'Roothoet' zoals afgebeeld in de gevelsteen. Het is niet bekend of de hoedmaker zijn achternaam van het gebouw ontleende of het gebouw naar hem vernoemd was. Tegenwoordig is het culturele debatcentrum 'Rode Hoed' hier gevestigd.",
+      "lat":52.377286,
+      "lng":4.887302,
+      "match": 0
+  },
+  {
+      "id": 3,
+      "name": "Hourglass",
+      "name_DE": "Sanduhr",
+      "name_NL": "Zandloper",
+      "addres": "Keizergracht 172",
+      "description": "At the corner of Keizersgracht 172 and Leliegracht, a gable stone displaying an hourglass was placed in honor of a leading figure striving to conservate and restore historic buildings of Amsterdam: Mr. Zantkuil. The dates refer to the years he headed the conservation department at the municipality.",
+      "description_DE":"An der Ecke Keizersgracht 172 und Leliegracht wurde ein Giebelstein mit einer Sanduhr zu Ehren des Leiters des Stadterhaltungsfonds gesetzt: Herr Zantkuil. Die Jahrzahlen beziehen sich auf die Jahre, in denen er Leiter des Fonds war und sich für die Erhaltung und Restaurierung historischer Gebäude in Amsterdam einsetzte.",
+      "description_NL": " Op de hoek van Keizersgracht 172 en Leliegracht is een gevelsteen met een zandloper geplaatst ter ere van een leidende figuur om de historische gebouwen van Amsterdam te behouden: de heer Zantkuil. De jaargetallen geven de jaren aan, in die hij hoofd van Bureau Monumentenzorg was.",
+      "lat":52.375631,
+      "lng":4.885798,
+      "match": 0
+  },
+  {
+      "id": 4,
+      "name": "Beer Brewer",
+      "name_DE": "Bierbrauer",
+      "name_NL": "Brouwer",
+      "addres": "Egelantiersgracht 10",
+      "description": "The stone on the right side of the building shows a man brewing beer. An inn was established in this building. In the 17th century, beer was drunk at every meal. Back then there was barely any clean drinking water in the cities available and beer was a safe alternative, so even the children drank beer. However, beer contained much less alcohol (around 2%). ",
+      "description_DE":"Der Stein auf der rechten Seite des Gebäudes zeigt einen Mann, der Bier braut. Im 17. Jahrhundert wurde bei jeder Mahlzeit Bier getrunken. Damals gab es kaum sauberes Trinkwasser in den Städten und Bier war die beste Alternative, auch die Kinder tranken Bier. Allerdings enthielt das Bier viel weniger Alkohol (ca. 2%).",
+      "description_NL": "De steen aan de rechterkant van het gebouw toont een man die bier brouwt. Dit gebouw was vroeger een herberg. In de 17e eeuw heeft men bij elke maaltijd bier gedronken. Toen was er nauwelijks schoon drinkwater in de steden verkrijgbaar en bier was een veilig alternatief, dus zelfs de kinderen dronken bier. Echter, bier bevatte veel minder alcohol (ongeveer 2%). ",
+      "lat":52.376715,
+      "lng":4.884386,
+      "match": 0
+  }
+]
+
+}
