@@ -1,6 +1,8 @@
 package nl.aleaf.quest;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,15 +62,15 @@ public class StoneAdapter extends BaseAdapter {
         View rowView = mInflater.inflate(R.layout.list_item_stone, parent, false);
 
         // Get id element
-        TextView titleTextView =
+        TextView idTextView =
                 (TextView) rowView.findViewById(R.id.id);
 
         // Get subtitle element
-        TextView subtitleTextView =
+        TextView nameTextView =
                 (TextView) rowView.findViewById(R.id.name);
 
         // Get detail element
-        TextView addresTextView =
+        TextView addressTextView =
                 (TextView) rowView.findViewById(R.id.addres);
 
         // Get thumbnail element
@@ -79,15 +81,38 @@ public class StoneAdapter extends BaseAdapter {
         // 1 Getting the corresponding stone for the current row.
         Stone stone = (Stone) getItem(position);
 
-        // 2 Updating the row view's text views so they are displaying the recipe.
-        titleTextView.setText(String.valueOf(stone.id));
-        subtitleTextView.setText(stone.name);
-        addresTextView.setText(stone.addres);
+        // 2 Updating the row view's text views so they are displaying the stone.
+        idTextView.setText(String.valueOf(stone.id));
+        nameTextView.setText(stone.name);
+        addressTextView.setText(stone.addres);
+        int id;
+
+        //TODO display images from drawable R.drawable.image+stone.id
+//        String idImage = ("R.drawable.image"+stone.id);
+//                //.getIdetifier("R.drawable/"+stone.imageUrl, null, null);
+//        Log.i("StoneAdapter Image", idImage);
+//
+//        // Set image in the detail view from drawable folder, based on the running Number
+//        // as extracted from the database
+//        String uri = "@drawable/image" + stone.id;
+//        int imageResource = mContext.getResources().getIdentifier(uri, null, mContext.getPackageName());
+//        thumbnailImageView.setImageResource(imageResource);
+
+//        //Image of Checkbox, if the data is 0, no match yet --> unchecked box
+//        // if data in db is 1, location of user and stone matched --> checked box
+//        if (stoneMatch.equals("0")){
+//            checkboxImageView.setImageResource(R.drawable.match_grey);
+//
+//        } else {
+//            checkboxImageView.setImageResource(R.drawable.match_green);
+//            // Extract how many matches there are
+//            matches.add(stoneMatch);}
+
 
         // 3 Making use of the open-source Picasso library for asynchronous image loading --
         // it helps you download the thumbnail images on a separate thread instead of the main thread.
         // You're also assigning a temporary placeholder for the ImageView to handle slow loading of images.
-        Picasso.with(mContext).load(R.drawable.image2).placeholder(R.mipmap.ic_launcher).into(thumbnailImageView);
+        //Picasso.with(mContext).load(String.valueOf(thumbnailImageView)).placeholder(R.mipmap.ic_launcher).into(thumbnailImageView);
 
 
         return rowView;

@@ -2,13 +2,16 @@ package nl.aleaf.quest;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class MissionActivity extends AppCompatActivity {
     private ListView mListView;
@@ -19,6 +22,13 @@ public class MissionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mission);
 
         final Context context = this;
+
+        /*Get Tournumber from SelectTourActivity*/
+        SharedPreferences tourselected = getSharedPreferences(SelectTourActivity.PREFS_NAME, Context.MODE_PRIVATE);
+        int numberTour = tourselected.getInt("Tournumber", MODE_PRIVATE);
+        Log.i("TourNbr MainActivity", String.valueOf(numberTour));
+
+
 
         //Get data to display
         final ArrayList<Stone> stoneList = Stone.getStonesFromFile("quest.json", this);

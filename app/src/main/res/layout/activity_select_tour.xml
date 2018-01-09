@@ -10,13 +10,13 @@
     <ImageView
         android:id="@+id/map_ams"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
         android:adjustViewBounds="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/select_tour"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@mipmap/snazzy_ams" />
 
     <Button
